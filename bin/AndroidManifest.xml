@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ono.tebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AlatBeratActivity"
+            android:label="@string/title_activity_alat_berat" >
+        </activity>
+        <activity
+            android:name=".BayiActivity"
+            android:label="@string/title_activity_bayi" >
+        </activity>
+        <activity
+            android:name=".BersilatActivity"
+            android:label="@string/title_activity_bersilat" >
+        </activity>
+        <activity
+            android:name=".CeritaActivity"
+            android:label="@string/title_activity_cerita" >
+        </activity>
+        <activity
+            android:name=".DatangActivity"
+            android:label="@string/title_activity_datang" >
+        </activity>
+        <activity
+            android:name=".DiborgolActivity"
+            android:label="@string/title_activity_diborgol" >
+        </activity>
+        <activity
+            android:name=".FaseActivity"
+            android:label="@string/title_activity_fase" >
+        </activity>
+        <activity
+            android:name=".GarisActivity"
+            android:label="@string/title_activity_garis" >
+        </activity>
+        <activity
+            android:name=".GelanggangActivity"
+            android:label="@string/title_activity_gelanggang" >
+        </activity>
+        <activity
+            android:name=".HantuActivity"
+            android:label="@string/title_activity_hantu" >
+        </activity>
+        <activity
+            android:name=".ImigranActivity"
+            android:label="@string/title_activity_imigran" >
+        </activity>
+        <activity
+            android:name=".BerhasilActivity"
+            android:label="@string/title_activity_berhasil" >
+        </activity>
+    </application>
+
+</manifest>
